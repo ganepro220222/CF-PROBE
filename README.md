@@ -28,6 +28,6 @@ CF-PROBE 是一个基于 Cloudflare Worker 的探针前端修改版。
 ## 文件说明
 
 ```text
-worker.js    Cloudflare Worker 主文件
+50vps-pb.js  Cloudflare Worker 主文件
 README.md    项目说明文件
 LICENSE      开源许可证文件
