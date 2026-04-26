@@ -123,7 +123,7 @@ export default {
 
     const footerHtml = `
       <div class="hideable" style="text-align: center; margin-top: 40px; padding-bottom: 20px; font-size: 13px; color: inherit; opacity: 0.8;">
-        Powered by <a href="https://github.com/a63414262/CF-Server-Monitor-Pro" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">Serverless</a> |
+        Powered by <a href="https://github.com/ganepro220222/CF-PROBE" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">CF探针</a> |
         <a href="https://vcalc.asorg.eu.org" target="_blank" style="color: #ef4444; text-decoration: none; font-weight: 600;">算鸡</a>
       </div>
     `;
@@ -174,9 +174,21 @@ export default {
       .theme5 .map-section-header { color: #0ff; border-bottom-color: #f0f; }
 
       ${sys.custom_bg ? `
+        /* iOS Safari 修复：body 的 background-attachment:fixed 在 iOS 上会以文档高度
+           而非视口高度计算 cover 尺寸，导致背景图在内容多的页面上显示异常放大。
+           改用 ::before 伪元素 + position:fixed 方案：
+           伪元素自身尺寸始终等于视口，cover 基于视口计算，所有平台行为一致。 */
+        body::before {
+          content: '';
+          position: fixed;
+          top: 0; left: 0;
+          width: 100%; height: 100%;
+          z-index: -1;
+          background: url('${sys.custom_bg}') no-repeat center center;
+          background-size: cover;
+        }
         body {
-          background: url('${sys.custom_bg}') no-repeat center center fixed !important;
-          background-size: cover !important;
+          background: transparent !important;
         }
         .vps-card, .global-stats, .header-card, .chart-card, .world-map-wrap {
           background: rgba(255,255,255,0.4) !important;
