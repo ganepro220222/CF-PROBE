@@ -1,3 +1,30 @@
+/*
+ * CF-PROBE
+ *
+ * 本脚本基于 CF-Server-Monitor-Pro 二次修改而来。
+ *
+ * 原项目地址：
+ * https://github.com/a63414262/CF-Server-Monitor-Pro
+ *
+ * 原作者：
+ * a63414262
+ *
+ * 原项目授权：
+ * 原项目 README 中声明为 MIT License。
+ *
+ * 修改者：
+ * ganepro220222
+ *
+ * 主要修改内容：
+ * - 增加全球点亮功能
+ * - 增加全屏壁纸开关功能
+ * - 调整部分前端显示效果
+ * - 对页面样式和展示逻辑进行了个人化修改
+ *
+ * 说明：
+ * 本项目为个人修改版本，并非原作者官方版本。
+ * 本项目保留对原项目、原作者及原项目地址的说明。
+ */
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
