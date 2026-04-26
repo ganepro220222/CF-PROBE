@@ -6,12 +6,14 @@ CF-PROBE 是一个基于 Cloudflare Worker 的探针前端修改版。
 
 ## 项目来源
 
-本项目基于以下原项目修改：
+本项目基于以下原项目二次修改而来：
 
 - 原项目名称：CF-Server-Monitor-Pro
 - 原项目作者：a63414262
 - 原项目地址：https://github.com/a63414262/CF-Server-Monitor-Pro
-- 原项目授权：MIT License，原项目 README 中声明为 MIT License
+- 原项目授权：原项目 README 中标注为 MIT License
+
+感谢原作者的开源贡献。本仓库是在原项目基础上的个人修改版本，并非原作者官方版本。
 
 感谢原作者的开源贡献。本仓库是在原项目基础上的个人修改版本，并非原作者官方版本。
 
