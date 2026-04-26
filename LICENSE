@@ -1,0 +1,35 @@
+本项目基于 CF-Server-Monitor-Pro 二次修改而来：
+https://github.com/a63414262/CF-Server-Monitor-Pro
+
+原项目作者：
+a63414262
+
+原项目授权：
+原项目 README 中声明为 MIT License。
+
+本项目为个人修改版本，并非原作者官方版本。
+本项目保留对原项目、原作者及原项目地址的说明。
+
+修改部分 Copyright (c) 2026 ganepro220222
+
+MIT License
+
+Copyright (c) 2026 ganepro220222
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice, this permission notice, and the attribution notice
+above shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS, ORIGINAL AUTHORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
